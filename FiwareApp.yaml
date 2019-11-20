@@ -1,0 +1,10 @@
+---
+kind: Application
+name: FiwareApp
+services:
+  FiwareApp:
+    container_name: FiwareApp
+    image: sw4iot/examplefiwareapp:1.0
+    gateway: host
+    ports:
+      - 5600:5600
